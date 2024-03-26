@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- include start pause and reset, tracking and displaying lap times  -->
+    <div class="container">
+        <div class="title">
+            Stopwatch
+        </div>
+        <div class="counter">
+            <span class="span1 seconds">00</span>
+            <span class="span1">:</span>
+            <span class="span1 tens">00</span>
+        </div>
+        <div class="buttons">
+            <button class="button start" data-text="Awesome">
+                <span class="actual-text">&nbsp;START&nbsp;</span>
+                <span aria-hidden="true" class="hover-text">&nbsp;START&nbsp;</span>
+            </button>
+            <button class="button stop" data-text="Awesome">
+                <span class="actual-text">&nbsp;STOP&nbsp;</span>
+                <span aria-hidden="true" class="hover-text">&nbsp;STOP&nbsp;</span>
+            </button>
+            <button class="button reset" data-text="Awesome">
+                <span class="actual-text">&nbsp;RESET&nbsp;</span>
+                <span aria-hidden="true" class="hover-text">&nbsp;RESET&nbsp;</span>
+            </button>
+        </div>
+        <div class="creator">
+            Made by Shaurya
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
